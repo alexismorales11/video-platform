@@ -163,3 +163,191 @@ body{
 .footer__owner{    
     padding-left: 30px;
 }
+
+@media only screen and (max-width: 320px){
+    body{
+        background-image: url(../multimedia/wallpaper-320-480.jpg);
+    }   
+    .header__menu{
+        margin-right: 0px;
+    }
+    .header__menu__profile{
+        margin-right: 120px;
+        width: 40px;
+        display: flex;
+        color: white;
+    }
+    .header__menu__profile p{
+        margin: 10px 0 0 50px;
+        font-size: 15px;
+    }
+    .main{
+        height: 150px;
+    } 
+    .main__title{
+        color: white;
+        font-size: 25px;
+    }
+    .input{
+        background-color: rgba(255, 255, 255, 0.3);
+        border: 2px solid white;
+        border-radius: 25px;
+        color: white;
+        font-size: 15px;
+        height: 50px;
+        width: 85%;
+        padding: 0 20px;
+        outline: none;
+    }
+    .header__menu__profile p{
+    margin: 30px 0 0 20px;
+    font-size: 25px;
+    }
+    .categoris__title{
+        font-size:20px;
+        width: 70%;
+        padding-left: 40px;
+    }
+    .carousel{
+    width: 100%;
+    overflow: scroll;
+    padding: 30px;
+    position: relative;
+}
+    .carousel__container{
+        white-space: none;
+        margin: 10px;
+        padding-bottom: 5px;
+    }
+    .carousel-item:hover ~ .carousel-item{
+        transform: none;
+    }
+    .carousel__container:hover .carousel-item{
+        opacity: 1;
+    }
+    .carousel__container:hover .carousel-item:hover{
+        transform: none;
+        opacity: 1;
+    }
+    .footer{
+        display: contents;
+    }
+    .footer a{
+        display: block;
+        color: white;
+        cursor: none;
+        font-size: 10px;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 480px){
+    body{
+        background-image: url(../multimedia/wallpaperMaquetacion2.jpg);
+    }   
+    .header__menu{
+        margin-right: 0px;
+    }
+    .header__menu__profile{
+        margin-right: 120px;
+        width: 40px;
+        display: flex;
+        color: white;
+    }
+    .header__menu__profile p{
+        margin: 10px 0 0 50px;
+        font-size: 15px;
+    }
+    .main{
+        height: 150px;
+    } 
+    .main__title{
+        color: white;
+        font-size: 30px;
+    }
+    .input{
+        background-color: rgba(255, 255, 255, 0.3);
+        border: 2px solid white;
+        border-radius: 25px;
+        color: white;
+        font-size: 15px;
+        height: 50px;
+        width: 80%;
+        padding: 0 20px;
+        outline: none;
+    }
+    .header__menu__profile p{
+    margin: 30px 0 0 20px;
+    font-size: 25px;
+    }
+    .categoris__title{
+        font-size:25px;
+        width: 70%;
+        padding-left: 40px;
+        padding-bottom: 50px;
+        margin: 0;
+    }
+    .carousel{
+    width: 100%;
+    overflow: scroll;
+    padding: 30px;
+    position: relative;
+}
+    .carousel__container{
+        white-space: none;
+        margin: 10px;
+        padding-bottom: 5px;
+    }
+    .carousel-item:hover ~ .carousel-item{
+        transform: none;
+    }
+    .carousel__container:hover .carousel-item{
+        opacity: 1;
+    }
+    .carousel__container:hover .carousel-item:hover{
+        transform: none;
+        opacity: 1;
+    }
+    .footer{
+        display: contents;
+    }
+    .footer a{
+        display: block;
+        color: white;
+        cursor: none;
+        font-size: 12px;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .main{
+        height: 200px;
+    }
+    .main__title{
+        color: white;
+        font-size: 40px;
+    }
+    .input{
+        background-color: rgba(255, 255, 255, 0.3);
+        border: 2px solid white;
+        border-radius: 25px;
+        color: white;
+        font-size: 15px;
+        height: 50px;
+        width: 80%;
+        padding: 0 20px;
+        outline: none;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .main{
+        height: 200px;
+    }
+    .input{
+        width: 60%;
+    }
+}
